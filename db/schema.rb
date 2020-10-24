@@ -10,6 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
+ActiveRecord::Schema.define(version: 2020_10_23_141139) do
+
+  create_table "properties", force: :cascade do |t|
+    t.string "title"
+    t.integer "price"
+    t.text "adress"
+    t.integer "old"
+    t.text "content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stations", force: :cascade do |t|
+    t.text "line"
+    t.text "name"
+    t.integer "distance"
+    t.integer "property_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["property_id"], name: "index_stations_on_property_id"
+  end
+
+=======
 ActiveRecord::Schema.define(version: 2020_10_09_014318) do
 
   # These are extensions that must be enabled in order to support this database
@@ -49,4 +73,5 @@ ActiveRecord::Schema.define(version: 2020_10_09_014318) do
 
   add_foreign_key "blogs", "users"
   add_foreign_key "books", "authors"
+>>>>>>> c47353e35b735a340283c8905c78584f1bfd622b
 end

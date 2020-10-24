@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "ApartmentInformation",
+=======
   "name": "associations_app",
+>>>>>>> c47353e35b735a340283c8905c78584f1bfd622b
   "private": true,
   "dependencies": {}
 }
