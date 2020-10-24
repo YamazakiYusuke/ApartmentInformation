@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 このリポジトリは、技術力テスト用のリポジトリです。
 [Click here for the English README](/README.en.md)
 
@@ -44,3 +45,29 @@ diver に掲載のテキストに書かれているものを使うこととし�
 課題を始める際は、まずこのリポジトリをcloneして、ご自身のアカウント内にリポジトリを作成してください(publicで問題ありません)。このとき**必ずリポジトリ名を適当な名称に変更**しておいてください(例: rat-giraffe)。
 
 新しいブランチを作り、その上で作業を行い、ご自身のリポジトリにpull requestを出してください(clone元にpull requestを出さないように注意ください)。
+=======
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> c47353e35b735a340283c8905c78584f1bfd622b
